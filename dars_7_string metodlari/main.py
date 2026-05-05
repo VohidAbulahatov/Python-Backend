@@ -42,10 +42,15 @@
 # s2 = s.split() #stringni listga o'girib beradi
 # print(s2)
 
-s = "    Salom qandasizlar zormi    "
-s2 = s.strip() #stringdagi boshi va oxiridagi bosh joylarni olib tashlaydi
-print(s2)
+# s = "    Salom qandasizlar zormi    "
+# s2 = s.strip() #stringdagi boshi va oxiridagi bosh joylarni olib tashlaydi
+# print(s2)
+#
+# s = "    Salom qandasizlar zormi    "
+# s2 = s.replace("zormi","yaxshimi") #stringdagi sozlarni almashtirish
+# print(s2)
 
-s = "    Salom qandasizlar zormi    "
-s2 = s.replace("zormi","yaxshimi") #stringdagi sozlarni almashtirish
-print(s2)
+
+
+
+
