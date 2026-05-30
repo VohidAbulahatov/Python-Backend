@@ -1,0 +1,90 @@
+1. "user_data" funksiyasini elon qilasizlar.
+Funksiyani 3 ta parametri bor (first_name, last_name, age).
+Input orqalik ism, familiya va yoshni kiritamiz.
+va bu bu qiymatlarni "user_data" funksiyasini chaqirib argumentlariga beramiz.
+"user_data" funksiyasi bu (first_name, last_name, age) o'zgaruvchilarni qiymatini
+
+  Ism: Alisher
+  Familiya: Olimov
+  Yosh: 27
+
+ko'rinishiga print qilib bersin.
+
+2. "find_max" funksiyasini elon qilasizlar.
+Funksiyani 3 ta parametri bor (a, b, c).
+Input orqalik 3 ta son kiritamiz.
+va bu sonlarni "find_max" funksiyasi chaqirib argumentlariga beramiz.
+"find_max" funksiyasini bu (a, b, c) o'zgaruvchilardan eng kattasini
+topib print qiladi.
+
+  Eng katta son - A = 10
+  yoki 
+  Eng katta son - A va B = 10
+  yoki
+  Eng katta son - A va B va C = 10
+
+3. "find_letter_count" funksiyasini elon qilasizlar.
+Funksiyani 2 ta parametri bor (word, letter).
+Input orqalik so'z kiritamiz, keyin esa shu so'zda qidirmoqchi bolgan so'zimizni kiritamiz.
+va bu qiymatlarni "find_letter_count" funksiyasini chaqirib argumentlariga beramiz.
+"find_letter_count" funksiyasi bu (word, letter) o'garuvchilardan foydalanib
+"word" da "letter" nechi martda qatnashganini print qilsin.
+
+  "Programing" so'zida "r" dan 2 ta.
+  
+4. "list_sum" funksiyasi elon qilasizlar.
+Funksiyani 1 ta pametrni bor (myList).
+"myList" funksiyasini chaqirib unda argumentini berasizlar.
+uni ichida esa myList elementlarini yig'indisini print qilasizlar.
+
+  Listning elementlar yig'indisi = 32
+
+
+5. daraja(a, b) - bu funksiya a ni b darajasini print qilsin.
+
+6. daraja4(a, b, c, d) - bu funksiya a ni b, c va d chi darajasini print qilsin.
+
+7. digit_count_and_sum(word) - bu funksiya "word" ni ichidagi raqamni aniqlab ularni yig'indisini va nechtaligini print qilsin.
+
+8. add_right(a, b) - bu funksiya a sonini o'ng tomoniga b sonini birlashtirib qoysin va print qilsin.
+
+9. add_left(a, b) - bu funksiya a sonini chap tomoniga b sonini birlashtirib qoysin va print qilsin.
+
+10. work_with_list(a) - bu funksiya a listdan eng kichik sonni topib list elementlariga ko'paytirib qiymatini o'zgartiradi va listni print qilsin.
+
+11. big_sales(sales) funksiyasini yarating. 
+sales bu dictionary:
+{
+  "yanvar": 12000,
+  "mart": 6000,
+  "aprel": 15000,
+  "sentabr": 9000,
+  "dekabr": 10000,
+}
+
+qaysi oyda eng ko'p sotuv bolgan bo'lganini return qilsin.
+
+12. min_max(numbers, max_num, min_num) max_num numbers ichigagi eng katta sonmi yoki yoqmi shuni aniqlang, 
+min_num numbers ichigagi eng kichik sonmi yoki yoqmi shuni aniqlang
+
+
+13. expensiveProduct(products) - funksiyadagi products - list.
+Unga products sifatida [
+  {
+    "name": "Iphone X",
+    "price": 600
+  },
+  {
+    "name": "Iphone 12",
+    "price": 1500
+  },
+  {
+    "name": "Samsung Note 9",
+    "price": 800
+  },
+  {
+    "name": "Samsung S10",
+    "price": 1100
+  },
+] shunaqa qiymat beriladi.
+Eng qimmat telefon nomini print qilib bersin bu funksiya.
